@@ -1,7 +1,7 @@
 {
   "name": "react-native-simple-zendesk",
   "title": "React Native Simple Zendesk",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "description": "Simple Zendesk library for simple and easy integration of zendesk sdk in Android and iOS apps",
   "main": "index.js",
   "files": [
@@ -16,8 +16,8 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/github_account/react-native-simple-zendesk.git",
-    "baseUrl": "https://github.com/github_account/react-native-simple-zendesk"
+    "url": "git+https://github.com/Flash91FS/react-native-simple-zendesk.git",
+    "baseUrl": "https://github.com/Flash91FS/react-native-simple-zendesk"
   },
   "keywords": [
     "react-native",
@@ -35,7 +35,7 @@
     "react-native": "^0.61.5"
   },
   "bugs": {
-    "url": "https://github.com/github_account/react-native-simple-zendesk/issues"
+    "url": "https://github.com/Flash91FS/react-native-simple-zendesk/issues"
   },
-  "homepage": "https://github.com/github_account/react-native-simple-zendesk#readme"
+  "homepage": "https://github.com/Flash91FS/react-native-simple-zendesk#readme"
 }
