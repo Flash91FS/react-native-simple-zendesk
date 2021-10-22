@@ -1,7 +1,7 @@
 {
   "name": "react-native-simple-zendesk",
   "title": "React Native Simple Zendesk",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Simple Zendesk library for simple and easy integration of zendesk sdk in Android and iOS apps",
   "main": "index.js",
   "files": [

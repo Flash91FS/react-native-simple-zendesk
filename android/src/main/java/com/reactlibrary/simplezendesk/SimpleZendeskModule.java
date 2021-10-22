@@ -22,6 +22,7 @@ import zendesk.messaging.MessagingActivity;
 
 public class SimpleZendeskModule extends ReactContextBaseJavaModule {
 
+    private static final String TAG = "SimpleZendeskModule";
     private final ReactApplicationContext reactContext;
 
     public SimpleZendeskModule(ReactApplicationContext reactContext) {
