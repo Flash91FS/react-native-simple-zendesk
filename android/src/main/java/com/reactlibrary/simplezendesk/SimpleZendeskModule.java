@@ -1,6 +1,11 @@
 // SimpleZendeskModule.java
 
-package com.reactlibrary;
+package com.reactlibrary.simplezendesk;
+
+import android.content.Intent;
+import android.util.Log;
+import android.widget.Toast;
+import android.app.Activity;
 
 import com.facebook.react.bridge.ReactApplicationContext;
 import com.facebook.react.bridge.ReactContextBaseJavaModule;
@@ -26,4 +31,12 @@ public class SimpleZendeskModule extends ReactContextBaseJavaModule {
         // TODO: Implement some actually useful functionality
         callback.invoke("Received numberArgument: " + numberArgument + " stringArgument: " + stringArgument);
     }
+
+
+    @ReactMethod
+    public void displayMessage(String message) {
+        Log.e(TAG, "displayMessage: "+message);
+        Toast.makeText(reactContext, "Message: "+message, Toast.LENGTH_SHORT).show();
+    }
+
 }

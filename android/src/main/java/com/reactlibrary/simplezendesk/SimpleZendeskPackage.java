@@ -1,6 +1,6 @@
 // SimpleZendeskPackage.java
 
-package com.reactlibrary;
+package com.reactlibrary.simplezendesk;
 
 import java.util.Arrays;
 import java.util.Collections;
