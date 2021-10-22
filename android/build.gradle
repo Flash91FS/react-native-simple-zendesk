@@ -68,12 +68,15 @@ repositories {
         url "$rootDir/../node_modules/jsc-android/dist"
     }
     google()
-    
+    maven { url 'https://zendesk.jfrog.io/zendesk/repo' }
 }
 
 dependencies {
     //noinspection GradleDynamicVersion
     implementation 'com.facebook.react:react-native:+'  // From node_modules
+    //Zendesk Dependencies
+    implementation group: 'com.zendesk', name: 'chat', version: '3.3.0'
+    implementation group: 'com.zendesk', name: 'messaging', version: '5.0.0' //versions higher than 5.0.0 giving issues with flexbox
 }
 
 // def configureReactNativePom(def pom) {
